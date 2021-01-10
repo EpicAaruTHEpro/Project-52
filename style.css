@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    font-family: sans-serif;
+}
+h2 {
+    font-family: cursive;
+    color: blue;
+}
+body {
+    background-color: goldenrod;
+}
+
+li {
+    color: green;
+    font-weight: lighter;
+    font-family: fantasy;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    margin: 10px;
+}
+
+/* {
+    border: solid;
+}*/
