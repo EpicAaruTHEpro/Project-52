@@ -1,17 +1,18 @@
 h1 {
-    color: red;
+    color: #db1727;
     font-family: sans-serif;
 }
 h2 {
     font-family: cursive;
-    color: blue;
+    color:#314ece;
 }
 body {
-    background-color: goldenrod;
+    background-color: #ce730a;
+    margin: 0px;
 }
 
 li {
-    color: green;
+    color:#166802;
     font-weight: lighter;
     font-family: fantasy;
 }
@@ -21,9 +22,10 @@ img {
 }
 
 .header {
-    background-color: green;
+    background-color:#1ecc52;
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 
 .grid {
