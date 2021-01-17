@@ -6,6 +6,15 @@ h2 {
     font-family: cursive;
     color:#314ece;
 }
+a {
+    text-decoration: none;
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color:black;
+}
 body {
     background-color: #ce730a;
     margin: 0px;
@@ -36,7 +45,16 @@ img {
 
 .item {
     display: flex;
-    margin: 10px;
+    position: relative;
+}
+.item p {
+    position: absolute;
+    top: 40%;
+    left: 82%;
+    color: red;
+}
+.item img:hover {
+    transform: scale(1.2);
 }
 
 /* {
